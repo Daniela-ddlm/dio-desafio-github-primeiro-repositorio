@@ -1,4 +1,4 @@
-#Desafio de Projeto sobre Git/GitHub da DIO
+# Desafio de Projeto sobre Git/GitHub da DIO
 Repositório criado para o Desafio de Projeto - Bootcamp Santander 2022: Trilha Stack Developer 🖥️
 
 ##Links Úteis
