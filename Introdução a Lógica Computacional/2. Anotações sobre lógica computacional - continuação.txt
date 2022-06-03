@@ -1,0 +1,421 @@
+**Se aprofundando nos conceitos obrigatórios:**
+
+Variáveis são como caixinhas ou gavetas na memória do computador onde podemos etiquetar e guardar coisas dentro e depois ter acesso facilmente. A criação de variáveis tem duas etapas: a declaração e atribuição:
+
+Declaração: Etapa de nomeação da caixa – criação na memória do computador.
+
+Atribuição: quando se guarda na memória ou algo na caixa (variável).
+
+Algumas LP usam a primeiro a declaração e depois a atribuição e em outras as duas coisas junto. O sinal de = usado na linguagem, ex: javascript e é o que indica a atribuição, em outras é usado <- . 
+
+A variável só consegue guardar uma coisa por vez, a única exceção é quando isso é feito por forma de lista.
+
+Tipos de variáveis: **String(texto), Number, Array (lista), Boolean**
+
+·     String é texto e é sempre representado entre aspas. “exemplo”.
+
+·     Number é número e não tem aspas.
+
+·     Array – Variável que pode armazenar mais de um item, estes itens devem estar entre 
+
+[ ] e separados por vírgula. É possível guardar uma lista dentro de uma lista.
+
+·     Boolean ou Booleano – Para esse tipo só existem duas opções de valor = true ou false. É possível alterar uma variável atribuindo se ela é verdadeira ou falsa conforme os parâmetros definidos. Exemplo Se fulano vestir o casaco = true, se ele não vestir = false.
+
+ 
+
+**Operadores Aritméticos e Comparadores**
+
+Variáveis = salvar informações.
+
+Operadores = formas de gerar esses valores e combiná-los para gerar novos. No caso é usado os operadores da matemática normal com a diferença que é os sinais de multiplicar e dividir é igual no excel (* e /), a diferença da conta simples para lógica computacional é que usamos o nome da variável e não o valor atribuído a ela. Ex:
+
+*var precoBanana = 3*
+
+*var precoMaca = 2*
+
+*var total = precoBanana + precoMaca*
+
+*var pagamentoEmDinehiro = 10*
+
+*var troco = pagamentoEmDinheiro – total.*
+
+**OBS:** Para contar operações diferentes na mesma var é usado parênteses ( ) para diferenciar e calcular corretamente. Ex: *(var 1 \* var2) / (var3 + var 4).*
+
+O quinto **operador aritmético é o resto da divisão** representado pela %. (módulo). Tem casos que dividir um número pelo outro não dá o resultado inteiro. Exemplo: 20/ 3 = 6, sobra 2. Essa sobra é o resto da divisão. Ex:
+
+*Variáveis: Dividendo, divisor, resto.*
+
+*Dividendo = 20*
+
+*Divisor = 3*
+
+*Resto = 20 % 3* (a porcentagem representa o resto da divisão que no caso é 2. Ele ajuda a verificar a paridade de um número (se é par ou ímpar), isso porque os números pares sempre vão ter o resto da divisão por 2 = 0 e os ímpares sempre vão ter o resto da divisão igual a 1.
+
+ 
+
+Comparadores 
+
+São operadores que permitem comparar dois valores. O resultado sempre vai ser um valor booleano.
+
+O primeiro deles é o Igualdade representado por três sinais de igual ===
+
+Como a maioria das linguagens usam o sinal de = para atribuição, por este motivo, para não confundir usasse os três sinais de igual para representar igualdade. Esse operador verifica se o **valor e o tipo** das duas variáveis são iguais. Se sim ele devolve true, se não ele devolve false. Este operador também pode ser usado para variáveis do tipo strings (texto).
+
+Operador de Desigualdade
+
+Verifica se tanto o valor e quanto o tipo das variáveis são desiguais. Se sim, true. Se não, false. Geralmente ele é representado pelos sinais: !==
+
+Na programação a exclamação significa não. Por isso Não (!) igual, é igual a desigual.
+
+Ex: IMPRIMIDA: 1!==1 => False
+
+​    IMPRIMA 1 !== 2 => True
+
+IMPRIMA: “MARIA” !== “JOSÉ” => True
+
+IMPRIMA: “1” !== 1 => True
+
+ 
+
+Operador Maior Q é representado pelo sinal de maior  > (A abertura do sinal tem que estar virada para o maior número). Este operador só funciona com números. No caso do símbolo > seguido do sinal de igual, ele representa que aquele número **é maior ou igual**. >=
+
+Ex: IMPRIMA: 1 > 1 = False
+
+IMPRIMA: 2>1 = True
+
+IMPRIMA: 1>= 1 = True
+
+IMPRIMA : 1>2>3 = erro
+
+ 
+
+Da mesma forma existe o operador menor que representado pelo símbolo < .
+
+ 
+
+**Operadores lógicos**
+
+Os operadores lógicos são usados junto com as variáveis do tipo booleano, e sempre retorna valores do tipo booleanos.
+
+**Operador E**
+
+Operador E é um operador de inclusão representado pelo símbolo &&. Este operador só devolve True, se todos os booleanos envolvidos forem true. Ex: 
+
+Para uma vitamina de maçã E banana, precisa-se dos dois ingredientes. Para isto:
+
+Maçã && Banana = True
+
+Mação &&Pera = False
+
+Banana && Morango = False
+
+Maçã && Morango && Banana = False (Neste caso ele compara dois booleanos de cada vez, no caso verifica primeiro Maçã e Morango = false. Depois ele compara com a banana que seria um ingrediente correto. Então neste caso seria false && true = False.)
+
+ 
+
+**Operador Ou**, operador de “alternativa” representado pelo símbolo ||
+
+Regra do OU = Ele só devolve *False* quando todos os seus booleanos forem *false*. Se pelo menos um for *True*, então o retorno é *true*.
+
+Ex: IMPRIMA : true || true = true
+
+True || false = true
+
+False || true = true
+
+True || false || true = true
+
+ 
+
+**Expressões lógicas** = Combinações de operações com booleanos. Existe uma ordem de execução para uma expressão lógica (igual na matemática). Tudo que está entre ( ) se resolve primeiro, em segundo os operadores aritméticos caso tenha, em seguida os comparadores e por último os operadores lógicos, **lembrando que && tem prioridade maior que ||.**
+
+ 
+
+**Operações com String e Arrays**
+
+**Concatenação** = Operador de adição aplicado a Strings. Diferentes pedaços de textos que se juntam. 
+
+Ex: nomeUsuário = nome.getElementbyID
+
+Var mensagem= “Olá” + nomeUsuário + “Seja bem Vindo!”
+
+Console.log (mensagem) = Olá Fulano Seja bem Vindo!
+
+ 
+
+**Arrays** = Tudo que estiver dentro do símbolo de [ ] faz parte da lista. Para acessar um elemento da lista, primeiro é preciso definir qual o elemento que se quer acessar e identificar ele pela sua posição na lista. A posição é definida pelo **índice**.
+
+ 
+
+Representação - nomeDoArray[índice].
+
+ 
+
+Na linguagem de programação o início da contagem de índice é sempre pelo 0 e não pelo 1. Exe: 
+
+ 
+
+*Lista [“ana”, “maria, “josé”].*
+
+*Índice   0      1     2*
+
+ 
+
+Com a Array, é possível, imprimir um determinado elemento indicando seu índice, trocar este elemento por outro, contabilizar a quantidade de elementos dentro da array, este último é útil para quando se quer acessar o último elemento da lista.
+
+ 
+
+![Caixa de Texto: OBS: Comprimento da lista vs. Índice = Comprimento conta a quantidade de itens. O índice começa a ser contado a partir do zero. Por isso, sempre é menor que o comprimento da lista.  ](file:///C:/Users/danie/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Na array ainda é possível, adicionar ou remover itens na lista. Em linguagem computacional isso é possível através de sintaxes da linguagem utilizada.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+**Estruturas condicionais**
+
+ 
+
+Realizar uma ação a partir de uma condição faz parte da vida e na programação isso não é diferente. Para isso serve as estruturas condicionais. São elas:
+
+ 
+
+·     ![Caixa de Texto: OBS: O espaço no código se chama indentação (tab ou espaço). Auxilia na identificação dos blocos de código. Algumas linguagens não funcionam sem a indentação adequada. É importante na organização do código.  ](file:///C:/Users/danie/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)Condicional simples
+
+·     Condicional composta
+
+·     Condicional Aninhada
+
+·     Escolha caso.
+
+ 
+
+ 
+
+ 
+
+\1.    Condicional Simples = Uma ação que só acontece se uma condição for verdadeira. (Se)
+
+![Diagrama  Descrição gerada automaticamente](file:///C:/Users/danie/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png)
+
+ 
+
+\2.    Condicional Composta = Quando uma condição não for verdadeira (Senão)
+
+ 
+
+![Diagrama  Descrição gerada automaticamente](file:///C:/Users/danie/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)
+
+ 
+
+\3.    Condicional Aninhada/Encadeada = Uma condicional dentro de uma condicional; Como um ninho mesmo. Ou encadeada, como um encadeamento de decisões a partir de um determinado resultado. (Se, senão, se)
+
+ 
+
+![Diagrama  Descrição gerada automaticamente](file:///C:/Users/danie/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg)
+
+ 
+
+ 
+
+\4.    Escolha Caso = Quando temos várias opções de valores pontuais. Útil para situações com muitas opções pontuais. Não pode ser usada com faixa de valores. Só pode ser usada com números inteiros, porém algumas linguagens permitem o uso com valores tipo texto.
+
+ 
+
+![Texto  Descrição gerada automaticamente com confiança baixa](file:///C:/Users/danie/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)
+
+ 
+
+**Estruturas de Repetição (Laço)**
+
+ 
+
+Estrutura de repetição pode ser chamada de laço ou loops. Permite que um bloco de passos seja executado várias vezes.
+
+ 
+
+**Enquanto** = “Enquanto uma condição for verdadeira, repita a ação”.
+
+ 
+
+Loop infinito é quando uma estrutura de repetição não consegue ser interrompida e se repete infinitamente. Muito comum em iniciantes de programação. Um laço/loop precisa ter um início e um fim. Nessa estrutura, a rotina de repetição só é executada caso a condição seja verdadeira. Se a condição for falsa, a estrutura é ignorada e finalizada.
+
+ 
+
+Caso de laço, exemplo:
+
+ 
+
+pratosLavados = 0
+
+ENQUANTO pratosLavados <10 FAÇA
+
+​        IMPRIMA “lavei um prato”
+
+​        pratosLavados = pratosLavados + 1
+
+FIMQUANQUANTO.
+
+ 
+
+Neste caso, como foi definido que, enquanto o número de pratos lavados fosse menor que 10, o laço seria lido e repetido 10 vezes. Quando o computador identificasse que o número 10 foi atingido, a condicional estaria finalizada. Contudo, se o valor estivesse definido como sendo <=10, o laço se repetiria por 11 vezes pois para o computador o valor 10 faz parte da condicional descrita, uma vez que 10 menor **ou igual** a 10 é verdadeiro (true).
+
+ 
+
+ 
+
+**Para-Até** = “para uma variável que vai de um certo valor de ínicio até um certo valor de limite ou com um incremento, repita certa ação”.
+
+ 
+
+Especialmente útil quando sabemos quantas rodadas queremos executar, aqui pode se ver ainda o exemplo anterior que já sabia-se que o número de pratos lavados deveria ser 10. Neste tipo de estrutura ainda é possível passar ou incrementar uma rodada adicionando maiores possibilidades dentro da estrutura. Como por exemplo:
+
+ 
+
+*Para pratosLavados de 1 até 10 passo 2 FAÇA //ou*
+
+*Para pratosLavados de 10 até 1 passo -1 FAÇA* *//pq também pode ser usado valores negativos, podendo executar ação de trás para frente.*
+
+ 
+
+Ainda é possível usar o laço de repetição com uma lista. Exemplo:
+
+ 
+
+Imprimir nomes da lista de alunos.
+
+ 
+
+PARA índice de 0 até 5 FAÇA
+
+​        IMPRIMA listadeAlunos[índice]
+
+FIMPARA
+
+ 
+
+//ou
+
+ 
+
+PARA índice de 0 até comprimentoDaLista -1 FAÇA
+
+​        IMPRIMA listadeAlunos[índice]
+
+FIMPARA
+
+ 
+
+*//O -1 aqui é porque o comprimento da lista sempre é maior que o índice.*
+
+ 
+
+![Tabela  Descrição gerada automaticamente com confiança média](file:///C:/Users/danie/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg)
+
+ 
+
+ 
+
+**Funções**
+
+ 
+
+Função ou subrotina reuni um bloco de instruções detalhadas em uma ação única. Um bloco de código independente do programa principal que pode ser reaproveitado.
+
+ 
+
+Uma função quando somente declarada, ou seja, quando descrita ela por si só não executa. Para ser executada precisa ser **invocada.**
+
+ 
+
+**Parâmetro =** Entrada, input para a função. Um valor genérico que só é definido quando a função é invocada.
+
+ 
+
+Exemplo de função:
+
+ 
+
+*FUNÇÃO verificaParidade (número)*
+
+​        *SE numero % 2 === 0 ENTÃO*
+
+​        *IMPRIMA “O número é par”*
+
+​        
+
+​        *SENÃO*
+
+​        *IMPRIMA “O número é impar”*
+
+​        *FIMSE*
+
+*FIMDAFUNÇÃO*
+
+ 
+
+*//invocação da função*
+
+ 
+
+*verificaParidade(4) //o computador verifica a paridade de 4 conforme a função definida.*
+
+*verificaParidade(5)*
+
+*verificaParidade(1459) //na função foi definido um valor genérico, ou seja, será verificado a paridade de qualquer valor que eu quiser definir na invocação da função.*
+
+ 
+
+Dependo da função ela pode usar mais de um parâmetro, e eles podem ser separados com o uso da virgula. Uma função também pode devolver um valor, ter um output chamado de **retorno da função.**
+
+ 
+
+A invocação não é apenas para que função rode, mas também representa um valor que é o retorno da função e para isso necessita de uma variável para guardar esta informação.
+
+ 
+
+**Escopo=** Todo conjunto de variáveis, operações e funções contido em um certo bloco de código. É possível ter um escopo dentro de um escopo.
+
+ 
+
+Classificação dos escopos:
+
+O mais externo é chamado de escopo pai ou escopo principal. O mais interno é chamado de escopo filho. *Ex:* O escopo da função é filho do escopo global, o escopo da condicional é filho do escopo da função.
+
+ 
+
+O escopo filho tem acesso a todas as variáveis do escopo pai, mas o escopo pai não tem acesso as variáveis do escopo filho. Ou seja, se uma variável for criada dentro da função, ele pertence apenas a função, e só poderá ser utilizada no escopo pai se criada ou invocada.
+
+ 
+
+**Vantagem da função:**
+
+·     Permite reaproveitar blocos de código sem necessariamente escrevê-los novamente
+
+·     Remove detalhes do código principal (escopo pai).
+
+·     Divisão dos códigos em blocos independentes. Assim, é mais fácil alterar partes dele.
+
+ 
+
+ 

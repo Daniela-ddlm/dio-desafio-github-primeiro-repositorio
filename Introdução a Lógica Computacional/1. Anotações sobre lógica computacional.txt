@@ -1,0 +1,211 @@
+# **Lógica de Programação**
+
+Antigamente os computadores eram mecânicos. Hoje são eletrônicos (feito por circuitos elétricos).
+
+·     Hardware – Parte física
+
+·     Software – Parte digital (Programas).
+
+ 
+
+#### Comparando com uma cozinha:
+
+Na cozinha são preparadas as receitas, uma série de comandos e instruções para se preparar um prato. Já o computador tem os programas que vão realizar a mesma coisa (uma sequência de instruções para se chegar a um determinado fim/objetivo).
+
+Assim como a cozinha tem os armários para se armazenar as receitas, os alimentos e os utensílios, o computador possui a memória, que armazena todos os programas e os dados utilizados por ele.
+
+O cozinheiro é quem vai ler as receitas, buscar ingredientes e utensílios e produzir o prato. Já o computador tem o processador, ele vai ler os programas, interpretar buscando e salvando dados na memória do computador.
+
+ 
+
+**Tipos de programas:**
+
+·  Sistemas Operacionais – Primeira coisa que roda quando liga o computador – Ex: Windows, Linux, etc.
+
+·  Aplicativos – Programas específicos para realizar tarefas – Ex: word, jogos etc.
+
+·  Softwares de programação – ferramentas que permitem a construção de outros programas.
+
+
+
+ **Por que um software é criado?**
+
+1. Para solucionar problemas do dia a dia. Ex: encontrar informações, pesquisar, contabilizar etc.
+
+2. Para automatizar e otimizar processos. Ex: acender automaticamente luzes em um determinado horário.
+
+
+
+**Como um software é criado e onde a lógica entra nisso?**
+
+1. Idealização
+
+2. Especificação de requisitos
+
+3. Validação de solução
+
+4. Desenvolvimento e testes Implantação e entrega
+
+Só depois de entender o problema é que se deve ir para a solução. Codar é a solução.
+
+*Tudo começa na análise, análise crítica do problema. Saber programar é secundário, o importante é saber criar soluções bem definidas.*
+
+Saber analisar e resolver um problema é mais importante que decorar os comandos de uma linguagem de programação. “Se não sabe para onde ir, qualquer caminho serve” – Gato. Alice no País das Maravilhas.
+
+ 
+
+**Lógica e Algoritmo**
+
+Lógica = ciência do pensamento.
+
+Ela é usada nas escolhas simples e em tudo que envolve raciocínio. Ex: atravessar a rua, olhar para os lados, conferir se está ok e atravessar.
+
+Algoritmo = Sequência de instruções para solucionar algum problema. Ex: Uma receita de bolo de chocolate. O algoritmo deve resolver o problema corretamente, mas mais do que isso, dado uma mesma entrada ele deve produzir a mesma saída. Ou seja, com os mesmos ingredientes, produzir dois bolos iguais.
+
+O computador precisa de instruções muito específicas e bem mais detalhadas para se ter um resultado. Ele não tem noção do que exatamente é uma bola por exemplo, então antes de pedir para pegá-la, é preciso descrever o que é uma para ele.
+
+Como o computador é basicamente um amontoado de circuitos elétricos, ele só entende o que é desligado e ligado. Então a língua que ele fala na verdade não é linguagem de programação e sim a lógica binária: sendo 0 deligado e 1 ligado.
+
+Quando se usa uma linguagem de programação, o computador traduz isso para a linguagem binária, como essa tradução acontece depende da linguagem de programação usada. Mais sobre isso, aqui nesse vídeo: https://www.youtube.com/watch?v=_C5AHaS1mOA.
+
+Artigos: [https://super.abril.com.br/mundo-estranho/o-que-e-o-sistema-binario/#:~:text=%E2%80%9CO%20computador%20n%C3%A3o%20interpreta%20letras,engenheiro%20de%20software%20Eugeni%20Dodonov](https://super.abril.com.br/mundo-estranho/o-que-e-o-sistema-binario/#:~:text=“O computador não interpreta letras,engenheiro de software Eugeni Dodonov).
+
+[https://imasters.com.br/desenvolvimento/metodos-de-traducao-interpretador-x-compilador#:~:text=Enquanto%20um%20compilador%20analisa%20todo,fun%C3%A7%C3%A3o%20%C3%A9%20executada%2C%20por%20exemplo](https://imasters.com.br/desenvolvimento/metodos-de-traducao-interpretador-x-compilador#:~:text=Enquanto um compilador analisa todo,função é executada%2C por exemplo).
+
+ 
+
+**Quanto mais próxima a LP está da linguagem Binária, ela é considerada de baixo nível, quanto mais próxima de como nós humanos entendemos, ela é de alto nível.**
+
+Primeira forma de representar um passo a passo é pelo fluxograma, cada passo é uma forma geométrica. Um retângulo é uma ação, e o losango uma tomada de decisão. Outra forma de representar algoritmo, é o pseudocódigo ou portugol. – Ele é uma linguagem de programação falsa, pq usa a linguagem natural para representar cada passo, que no caso é o português.
+
+Isso ajuda a pensar nos problemas, sem se preocupar com os detalhes da Linguagem de Programação e pode ser usada apenas com um papel e caneta mesmo.
+
+**Para montar um algoritmo:**
+
+Antes de tudo é preciso analisar criticamente o problema. Entenda completamente ele primeiro, assim fica mais fácil sugerir uma solução. Para ajudar é possível utilizar os 5Qs.
+
+**1.**    **Quais são os dados de entrada necessários?**
+
+**2.**    **O que devo fazer com estes dados?**
+
+**3.**    **Quais são as restrições deste problema?**
+
+**4.**    **Qual o resultado esperado?**
+
+**5.**    **Qual a sequência de passos a ser feita para chegar ao resultado esperado?**
+
+Quando se responde todas estas perguntas fica mais fácil escrever/montar um algoritmo.
+
+**Regras para desenvolvimento de algoritmos**
+
+\1.    **Seja direto.** Escreva frases curtas e simples, com apenas um verbo.
+
+\2.    **Seja detalhista.** Descreva, com detalhes, todos os passos necessários.
+
+\3.    **Seja lógico.** Encadeie as ações na ordem em que elas devem acontecer.
+
+\4.    **Seja objetivo.** Procure atingir o objetivo proposto com o menor número de passos, tomando o cuidado de não pular passos importantes.
+
+\5.    **Seja claro.** Evite o uso de palavras e expressões com duplo sentido (termo conhecido tecnicamente como ambiguidade).
+
+\6.    **Seja compreensível.** Redija instruções de forma que qualquer pessoa possa entendê-las, não somente profissionais da área de informática.
+
+\7.    **Seja crítico.** Faça a leitura crítica de seu algoritmo para melhorar a escrita e o encadeamento lógico dele.
+
+ 
+
+**Conceitos obrigatórios**
+
+\1.    Variáveis
+
+\2.    Condicionais
+
+\3.    Laços de repetição
+
+\4.    Coleções
+
+**Resumo rápido:**
+
+Variáveis: Informação a ser guardada. Varia conforme a situação que será utilizada (resultados também devem ser guardados).
+
+Condicionais: Ações que serão tomadas segundo critérios pré-estabelecidos. Questionamentos possíveis, situações possíveis dependendo da escolha/resultado/reposta.
+
+Lações de repetição: Uma ação que precisa ser realizada várias vezes ou por uma determinada quantidade de vezes. Ex: quantidade de passos para se chegar a um lugar. Ou derrubar uma árvore cortando-a 11 vezes com um machado. Normalmente lações de repetição possuem um ponto inicial e um ponto final, ou em outros casos, uma condição que irá significar o final daquele laço de repetição. Ex: deixar a torneira aberta até que o copo esteja cheio de água.
+
+*//Pontos chaves dos laços de repetição:*
+
+·     *Uteis para automatizar processos.*
+
+·     *É possível definir quantas vezes algo deve ser executado.*
+
+·     *Possuem ponto de início e fim.*
+
+·     *Podem estar atrelados a uma condição.*
+
+ 
+
+Coleções: coleções de valores, informações que estão armazenadas em um único local. (arrays). Estes valores podem ser do mesmo tipo ou tipos diferentes.
+
+ 
+
+**Pseudocódigo:**
+
+Pseudocódigo é uma descrição dos passos necessários para resolver um determinado problema em uma linguagem natural que não está ligada diretamente a uma linguagem de programação. No Brasil, comumente chamado de portugol.
+
+*//Não é uma linguagem de programação*
+
+*// Não é padronizado*
+
+*//Não é processado pelo processador*
+
+*// Não substitui uma linguagem de programação*
+
+*//Deve ser usado apenas para criar uma lógica.*
+
+*//Não precisa ser especialista nisso!*
+
+*//Não existe pseudocódigo perfeito!*
+
+ 
+
+**Fluxograma:**
+
+Representação visual de um algoritmo através de formas geométricas e linhas.
+
+*Símbolos padrões (universal)*
+
+![img](file:///C:/Users/danie/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)Linha de fluxo (caminho)
+
+![img](file:///C:/Users/danie/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)Inicio/Fim
+
+![img](file:///C:/Users/danie/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png)Entrada/Saída 
+
+![Caixa de Texto: // usado para manipulação dados ou operações matemáticas](file:///C:/Users/danie/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)![img](file:///C:/Users/danie/AppData/Local/Temp/msohtmlclip1/01/clip_image005.png)Processamento 
+
+![img](file:///C:/Users/danie/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)Decisão 
+
+ 
+
+Vantagens e desvantagens do fluxograma:
+
+
+
+|      |                                                              |
+| ---- | ------------------------------------------------------------ |
+|      | ![img](file:///C:/Users/danie/AppData/Local/Temp/msohtmlclip1/01/clip_image007.png) |
+
+![Caixa de Texto: - Leva mais tempo para montar os passos que o pseudocódigo. Não há detalhamento de informações. Problemas maiores ocasionam fluxograma gigantescos impossibilitando a leitura caso impresso ou em tela. ](file:///C:/Users/danie/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png)![Caixa de Texto: + Podem ser mais intuitivos Permite a leitura de leigos Facilita a compreensão de um processo altamente complexo. ](file:///C:/Users/danie/AppData/Local/Temp/msohtmlclip1/01/clip_image009.png)
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
